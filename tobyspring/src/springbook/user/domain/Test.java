@@ -6,7 +6,7 @@ public class Test {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		UserDao dao = new UserDao();
 		User user = new User();
-		user.setId("whiteship3");
+		user.setId("whiteship4");
 		user.setName("백기선");
 		user.setPassword("married");
 		dao.add(user);
